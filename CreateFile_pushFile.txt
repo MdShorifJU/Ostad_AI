@@ -1,0 +1,28 @@
+# 1️⃣ Go to your project folder
+cd C:\Users\HP\Ostad_AI
+
+# 2️⃣ Create a new Python file
+ni filename.py          # Example: ni vai.py
+
+# 3️⃣ Open file in VS Code (or Notepad) and write your code
+code filename.py        # Example: code vai.py
+
+# 4️⃣ Add the new file to Git
+git add filename.py
+
+# 5️⃣ Commit your change with a message
+git commit -m "Add filename.py"
+
+# 6️⃣ Push your changes to GitHub
+git push origin main
+
+# ✅ Done! Check your GitHub repo to confirm the file was uploaded.
+Notes:
+
+Replace filename.py with your actual file name.
+
+Use git add . if you want to add all new or changed files at once.
+
+If your branch name is different (like master), change the last command to:
+
+git push origin master
