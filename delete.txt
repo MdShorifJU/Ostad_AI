@@ -1,0 +1,16 @@
+Delete a File from Local and GitHub (Git Commands)
+
+# 1️⃣ Check which branch you're on (usually 'main')
+git status
+
+# 2️⃣ Delete the file (replace filename.py with your actual file name)
+git rm filename.py
+
+# 3️⃣ Commit the deletion with a message
+git commit -m "Delete filename.py"
+
+# 4️⃣ Push the change to GitHub
+git push origin main
+
+# ✅ Done!
+# The file is now deleted both locally and from your GitHub repository.
