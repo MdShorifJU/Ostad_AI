@@ -1,0 +1,29 @@
+# 1️⃣ Open Project in VS Code
+code .
+
+# 2️⃣ Check Current Branch
+git branch
+
+# 3️⃣ Create a New Branch and Switch
+git checkout -b features
+
+# 4️⃣ Verify Current Branch
+git branch
+
+# 5️⃣ Create New File
+ni fre.py
+code fre.py
+
+# 6️⃣ Stage Changes
+git add fre.py
+
+# 7️⃣ Commit Changes
+git commit -m "Add fre.py in features branch"
+
+# 8️⃣ Push New Branch to GitHub
+git push --set-upstream origin features
+
+Note :
+To go any branch just write below code
+
+ git checkout <branch_name>
