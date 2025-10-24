@@ -1,0 +1,34 @@
+1️⃣ Create Project Folder
+
+mkdir text_git
+cd text_git
+
+2️⃣ Create Python File
+
+ni main.py
+code main.py   # Opens in VS Code
+
+3️⃣ Initialize Git Repository
+
+git init
+
+4️⃣ Stage Files
+git add .
+
+5️⃣ Commit Changes
+
+git commit -m "git_text_code"
+
+6️⃣ Add Remote Repository
+
+git remote add origin https://github.com/MdShorifJU/text_git_iit.git
+
+7️⃣ Rename Branch to Main
+
+git branch -M main
+
+8️⃣ Push to GitHub
+
+git push -u origin main
+
+
