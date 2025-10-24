@@ -1,3 +1,4 @@
+without clone First make code like folder file name add local then add with git 
 1️⃣ Create Project Folder
 
 mkdir text_git
